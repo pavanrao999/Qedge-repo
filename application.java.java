@@ -49,14 +49,18 @@ public class BinaryConverter {
         }
         return all;
 		
+
+		#feature 302 code changes prasad
+		while(all && i < val.length()){
+=======
 		#manoj is making changes for features301  
 		
 		
 		 while(all && i < val.length()){
+
             c = val.charAt(i);
             all = c == '0' || c == '1';
             i++;
-		
     }
 }
 
