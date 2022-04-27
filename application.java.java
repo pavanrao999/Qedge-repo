@@ -48,5 +48,15 @@ public class BinaryConverter {
             i++;
         }
         return all;
+		
+		#manoj is making changes for features301  
+		
+		
+		 while(all && i < val.length()){
+            c = val.charAt(i);
+            all = c == '0' || c == '1';
+            i++;
+		
     }
 }
+
