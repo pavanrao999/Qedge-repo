@@ -48,5 +48,13 @@ public class BinaryConverter {
             i++;
         }
         return all;
+		
+		#feature 302 code changes prasad
+		while(all && i < val.length()){
+            c = val.charAt(i);
+            all = c == '0' || c == '1';
+            i++;
+		
+        
     }
 }
